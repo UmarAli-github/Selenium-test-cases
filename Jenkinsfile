@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build and Run') {
             steps {
-                git 'https://github.com/user/repository.git'
+                git 'https://github.com/UmarAli-github/Selenium-test-cases'
                 docker.image('node').inside {
                     sh 'npm install'
                     sh 'node test-case-1.js'
