@@ -24,7 +24,7 @@ async function registerUser(){
 
     console.log("Step-2: Setting Email ---> test@test.com\n");
 
-        await driver.findElement(By.xpath('//*[@id="form1"]/input[1]')).sendKeys("test029@test.com");
+        await driver.findElement(By.xpath('//*[@id="form1"]/input[1]')).sendKeys("test009@test.com");
 
     
     console.log("Step-3: Setting Username ---> tester\n");
