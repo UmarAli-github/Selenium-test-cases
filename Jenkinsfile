@@ -1,6 +1,6 @@
 node {
   stage('Build') {
-    docker.build('my-node-app', file: '/Dockerfile')
+    docker.build('my-node-app')
   }
   stage('Test') {
     docker.image('my-node-app').inside {
