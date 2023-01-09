@@ -1,6 +1,4 @@
-pipeline {
-  agent any
-  node {
+node {
   stage('Build') {
     docker.build('my-node-app', file: '/Dockerfile')
   }
@@ -18,4 +16,3 @@ pipeline {
   }
 }
 
-}
